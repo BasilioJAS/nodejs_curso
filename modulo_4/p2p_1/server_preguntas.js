@@ -10,31 +10,6 @@ app.get("/preguntas",
         console.log(str);
 
         res.send (str);
-        /*
-		res.send(''
-				+addTabs(0)+	'<!DOCTYPE html>' + endLine()
-				+addTabs(0)+	'<html>' + endLine()
-				+addTabs(1)+		'<head>' + endLine()
-				+addTabs(2)+			'<title>Formularios preguntas</title>' + endLine()
-				+addTabs(2)+			'<meta charset="UTF-8">' + endLine()
-				+addTabs(1)+		'</head>' + endLine()
-				+addTabs(1)+		'<body>' + endLine()
-				+addTabs(2)+			'<form method="get" action="/respuestas">' + endLine()
-				+addTabs(3)+				'¿Quién descubrió América?<br>' + endLine()
-				+addTabs(3)+				'<input type="text" name="respuesta" value="escriba su respuesta"/>' + endLine()
-				+addTabs(3)+				'<input type="hidden" name="id" value="1">' + endLine()
-				+addTabs(3)+				'<input type="submit" value="contestar"/>' + endLine()
-				+addTabs(2)+			'</form>' + endLine()
-				+addTabs(2)+			'<form method="get" action="/respuestas">' + endLine()
-				+addTabs(3)+				'¿Capital de Portugal?<br>' + endLine()
-				+addTabs(3)+				'<input type="text" name="respuesta" value="escriba su respuesta"/>' + endLine()
-				+addTabs(3)+				'<input type="hidden" name="id" value="2">' + endLine()
-				+addTabs(3)+				'<input type="submit" value="contestar"/>' + endLine()
-				+addTabs(2)+			'</form>' + endLine()
-				+addTabs(1)+		'</body>' + endLine()
-				+addTabs(0)+	'</html>' + endLine()
-		);
-		*/
 	}
 );
 
